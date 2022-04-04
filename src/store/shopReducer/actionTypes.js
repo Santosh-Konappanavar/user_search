@@ -1,0 +1,4 @@
+export const GET_DATA='GET_DATA';
+export const GET_DATA_SUCCESS='GET_DATA_SUCCESS';
+export const GET_SINGLE_DATA_SUCCESS = 'GET_SINGLE_DATA_SUCCESS';
+export const ADD_CART_DATA = 'ADD_CART_DATA';

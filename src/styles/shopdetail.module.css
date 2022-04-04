@@ -1,0 +1,19 @@
+#main{
+  
+    margin: auto;
+}
+.card{
+    margin:50px auto;
+    border-radius: 6px;
+    width: 600px;
+    background-color: rgb(226, 230, 173);
+    padding: 20px;
+}.type{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(175, 78, 13);
+}.shopname{
+    color: rgb(45, 45, 170);
+    font-weight: bold;
+    font-size: 24px;
+}

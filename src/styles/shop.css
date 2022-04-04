@@ -1,0 +1,58 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card{
+    border-radius: 6px;
+    width: 330px;
+    background-color: rgb(207, 215, 216);
+    padding: 20px;
+    margin: 10px auto;
+}.type{
+  font-weight: bold;
+  color: rgb(160, 41, 41);
+}.sort button{
+    margin: 10px;
+    background-color: rgb(79, 79, 143);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}.shopname{
+    color: rgb(45, 45, 170);
+    font-weight: bold;
+    font-size: 24px;
+}.home{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 30px;
+}.carthead td{
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+}.remove{
+    color: rgb(240, 33, 33);
+    font-weight: bold
+}.cartlen{
+    color: rgb(224, 174, 174);
+}#pricep{
+    color: rgb(201, 58, 58);
+    font-weight: bold;
+}
+
+@media  screen and (max-width: 670px) {
+
+    .home{
+        font-size: 15px;
+        margin: 0 15px;
+    }.carthead td{
+        font-size: 9px;
+        margin: 0;
+    }.cartlist td{
+        font-size: 8px;
+    }
+}
